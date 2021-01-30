@@ -1,14 +1,17 @@
+body{margin-left:250px;
+  margin-right:250px;
+}
 h1{font-family: 'Dancing Script', cursive;color:orange;
 }
-h3{font-family: 'Dancing Script', cursive;font-weight:bold;color:orange; 
+h3{font-family: 'Dancing Script', cursive;font-weight:bold;color:orange;margin-left:300px; 
 }
 .sentence1{font-family: 'Dancing Script';line-height: 1.5em;
-  color:orange;
+color:orange;
 }
 h5{font-family: 'Dancing Script', cursive;color:orange;
 }
 .link{
-  color:green;
+color:green;
 }
 .pro{font-family: 'Dancing Script';line-height: 1.5em;font-weight:bold;color:orange;
 }
