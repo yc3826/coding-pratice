@@ -1,9 +1,9 @@
-body{margin-left:250px;
-    margin-right:250px;
+body{margin-left:450px;
+    margin-right:450px;
 }
-h1{font-family: 'Dancing Script', cursive;color:orange;
+h1{font-family: 'Dancing Script', cursive;color:orange;margin-left:90px;
 }
-h3{font-family: 'Dancing Script', cursive;font-weight:bold;color:orange;margin-left:300px; 
+h3{font-family: 'Dancing Script', cursive;font-weight:bold;color:orange;margin-left:410px; 
 }
 .sentence1{font-family: 'Dancing Script';line-height: 1.5em;
   color:orange;
