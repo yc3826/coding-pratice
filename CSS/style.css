@@ -1,7 +1,14 @@
-body{margin-left:450px;
+
+.article{
+  position: relative;
+ left: 450px;
+ width: 500px;
+ height: 800px;
+ background-color: #BEF6E9;
+    padding:25px;
     margin-right:450px;
 }
-h1{font-family: 'Dancing Script', cursive;color:orange;margin-left:90px;
+h1{font-family: 'Dancing Script', cursive;color:orange;margin-left:50px;
 }
 h3{font-family: 'Dancing Script', cursive;font-weight:bold;color:orange;margin-left:410px; 
 }
