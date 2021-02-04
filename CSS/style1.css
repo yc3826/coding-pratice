@@ -1,0 +1,47 @@
+.container{margin-left:150px;
+    margin-right:150px;line-height: 1.68;padding: 10px 20px; font-family: "Open Sans";
+  }
+  
+  
+  h1{font-family: 'Cinzel', serif;font-size:80px;color:orange;text-transform: capitalize;
+  }
+  
+  h3{font-family: 'Cinzel', serif;font-weight:bold;color:orange; 
+  }
+  .sentence1{font-family: 'Dancing Script';
+  color:orange;line-height:2.5;font-size:25px;
+  }
+  .row{
+    display:flex;
+    flex-grow: 1;
+    padding: 10px 20px;
+    justify-content: 
+  space-around;
+  }
+  .column{padding: 10px 20px;
+    display:flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width:800px;height:500px;}
+  
+  .left{
+    
+    padding:30px;
+    background-color:white;
+    flex-grow: 1; 
+  }
+  .right{
+    padding:30px;
+    flex-grow: 1;
+  }
+  .pro{font-family: 'Dancing Script';
+  color:orange;line-height:2.5;font-size:25px;
+  }
+  .ending{font-family: 'Dancing Script';
+  color:orange;line-height:2.5;font-size:25px;
+  }
+  h5{font-family: 'Dancing Script', cursive;color:orange;
+  }
+  .link{
+    color:green;
+  }
