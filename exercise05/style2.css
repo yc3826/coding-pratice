@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, 
+html{
+  font-family: 'Roboto', sans-serif;  
+}
+ul.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: tomato;
+  padding: 30px;
+}
+
+
+a {
+  color:black;
+  text-decoration: none;
+}
