@@ -43,10 +43,13 @@ ul.nav1 {
   line-height: 60px;
 }
 
-.nav1{
+.nav1 a{
   font-size: 20px;
   text-decoration: none;
  color: grey;
+ 
+  font-family: Roboto;
+  font-weight: bold
 }
 /* ----------------------------------------
 title
