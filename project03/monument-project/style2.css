@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body,
+html{
+  font-family: 'Roboto', sans-serif;font-size:26px;
+}
+/* .container{
+  display:flex;
+  flex-direction:column;
+  /* text-align:center; */
+  /* padding:30px; */
+  /* line-height:1.68;
+
+} */ 
+.container{
+    padding:20px;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	flex:1;
+	margin-bottom: 50px;
+}
+.columnbody2{
+    max-width:900px;
+    padding-left:10%;
+    padding-right:10%;
+    width: auto;
+    
+}
+.columnabout{
+    max-width:400px;
+    padding-left:10%;
+    padding-right:10%;
+    width: auto;
+    
+}
+p{
+  color: #244B3F;
+}
+/* .row {
+  display: flex;
+  line-height: 1.68;
+  width: 100%;}
+
+.column {
+  padding-left: 5%;
+  padding-right: 5%;
+ 
+  flex: 1;
+} */
+
+nav {
+  height: 60px;
+}
+
+ul.nav1 {
+  background-color:white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  line-height: 60px;
+  overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav1 a{
+  font-size: 20px;
+  text-decoration: none;
+ color: grey;
+ 
+  font-family: Roboto;
+  font-weight: bold
+}
+/* ----------------------------------------
+title
+------------------------------------------- */
+
+/* .headimage{
+  width: 80%;
+  display: inline-block;
+  color: white;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+} */
+.head{
+  top: 60%;
+  position: relative;
+  color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  letter-spacing: 10px;
+}
+.head-image {
+  background-image: url(images/blog_header_bg.jpg);
+  display: inline-block;
+  color: white;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+}
+
+/* .title-text {
+  top: 40%;
+  position: relative;
+
+} */
+
+h3,h2{
+  color: #244B3F;
+}
+.title2{
+  line-height: 1.68;
+  width: 100%;
+}
+.body2 img {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  /* width: 100%; */
+}
+.body2 {
+  line-height: 1.68;
+  width: 100%;
+}
+
+h1{
+  font-size: 50px;
+  /* color:black; */
+}
+
+
+
+
+ul.container2{
+    padding:5px;
+    color:grey;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px ;
+   font-family: Roboto;
+   font-size:15px;
+   font-weight:bold;
+   justify-content: space-around;
+  
+}
+
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+.footernav{
+  padding: 5px;
+  background-color: lightblue;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.footernav a {
+	color: grey;
+}
+.footer:hover{
+  color: white;
+}
+.copy{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color:lightblue;
+  display: block
+}
