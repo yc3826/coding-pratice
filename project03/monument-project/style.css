@@ -41,6 +41,10 @@ ul.nav1 {
   list-style: none;
   margin: 0;
   line-height: 60px;
+  overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .nav1 a{
@@ -89,7 +93,7 @@ title
 
 } */
 
-h3{
+h3,h2{
   color: #244B3F;
 }
 .title2{
@@ -115,22 +119,41 @@ h1{
 
 
 ul.container2{
-    padding:30px;
+    padding:5px;
     color:grey;
     display: flex;
     flex-direction: column;
     margin-left: 50px ;
+   font-family: Roboto;
+   font-size:15px;
+   font-weight:bold;
+   justify-content: space-around;
+  
 }
-.footer{
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    background-color:lightblue;
-    
-}
+
 
 
 
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
+.footernav{
+  padding: 5px;
+  background-color: lightblue;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.footernav a {
+	color: grey;
+}
+.footer:hover{
+  color: white;
+}
+.copy{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color:lightblue;
+  
+}
