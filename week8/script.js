@@ -7,10 +7,10 @@ let array_one = [
   ];
   let array_two=[
      "run in the rain",
-    "a house of cats",
-    "a house of horses",
-    "a house of potatos",
-    "a house of cany"
+    "eat an ice cream",
+    "dance in LALALAND",
+    "watch a moive",
+    "jump in the cloud"
   ];
   
   
