@@ -22,7 +22,6 @@
   
           el.style["transform"] = s;
           el.style["transformOrigin"] = oString;
-        
   }
   
   function showVal(a){
