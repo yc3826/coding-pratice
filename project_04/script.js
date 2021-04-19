@@ -25,7 +25,6 @@
         
   }
   
-
   function showVal(a){
      var zoomScale = Number(a)/10;
      setZoom(zoomScale,document.getElementsByClassName('part2')[0])
