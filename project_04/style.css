@@ -1,3 +1,5 @@
+
+
 .part1{
     
     text-align: center;
@@ -52,6 +54,8 @@ h3{
 }
 
 .part2{
+  background-color:white;
+  width:100%;
     display:flex;
     flex-direction:row;
     justify-content: flex-start;
@@ -59,6 +63,24 @@ h3{
     position: absolute;
         bottom: 0;
 }
+@media screen and (max-width: 1400px) {
+  .part2 {
+    background-color:grey;
+  width: 80%;
+  }
+  }
+@media screen and (max-width: 1200px) {
+  .part2 {
+    background-color:rgb(173, 173, 173);
+  width: 60%;
+  }
+  }
+  @media screen and (max-width: 800px) {
+    .part2 {
+      background-color:rgb(221, 221, 221);
+    width: 50%;
+    }
+    }
 .pic_group{
         position:relative;
         bottom: 0;
