@@ -11,10 +11,16 @@ ul.container {
   align-items: center;
   background: tomato;
   padding: 30px;
+  list-style-type: none;
 }
 
 
 a {
-  color:black;
+  color:white;
   text-decoration: none;
 }
+
+
+.container:hover {
+	color: #40cae6;}
+ 
