@@ -1,0 +1,9 @@
+.container{
+    background-color: rgb(231, 244, 245);
+    font-family: 'Dancing Script', cursive;
+    color:orange;
+    width:50%;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.h1{font-size: 30px;}
