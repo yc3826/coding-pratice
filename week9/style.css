@@ -14,16 +14,16 @@ body {
 /* .container {
    max-width:960px ;
 } */
-@media screen and  {max-width: 450px;
+@media screen and  (max-width: 950px){
     .container{
-        width:100%;
+        width:80%;
         background-color:red;
     }
     }
 
-@media screen and  {max-width: 450px;
+@media screen and  (max-width: 650px){
 .container{
-    width:100%;
+    width:70%;
     background-color:green;
 }
 }
